@@ -32,7 +32,7 @@ Tell us about your furry friend and what their favorite foods are: Our LOLA AI w
 
 Approve your monthly meal plan: Once per month, approve the meal plan generated for you by LOLA AI. You can change ingredients, swap entire meals.
 
-Receive meals at convenient time: We will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
+Receive meals at convenient time: We will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!!
 
 ### LOLA works with any cat size and age
 

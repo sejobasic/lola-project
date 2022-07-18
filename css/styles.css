@@ -17,6 +17,13 @@ SECONDARY: #fed9b7
 BACKGROUND: #fdfcdc
 FONT: #555 
 
+
+-- SHADOWS
+
+-- BORDER-RADIUS
+
+-- WHITESPACE
+
 */
 
 * {
@@ -30,4 +37,11 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.test {
+  /* width: 1000px; */
+  background-color: red;
+  padding: 100px;
+  max-width: 1000px;
 }
