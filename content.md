@@ -26,7 +26,6 @@ Pause anytime: Going on vacation? Just pause your subscription, and we refund un
 
 [Show big app images]
 
-**Your daily dose of health in 3 simple steps**
 
 Tell us about your furry friend and what their favorite foods are: Our LOLA AI will create a 100% personalized Monthly meal plan just for your cat. It makes sure they get all the nutrients and vitamins they need, no matter what diet they follow!
 
