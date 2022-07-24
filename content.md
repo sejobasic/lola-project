@@ -1,5 +1,8 @@
 # LOLA PREMIUM CAT FOOD
 
+
+
+
 ## About LOLA
 
 We are a Premium Human-Grade cat food company, but with a major focus on our little ones well-being through a healthy diet. We use Animal-based proteins to build muscle. Low carbs and low-glycemic ingredients to maintain healthy weight. And probiotics to boost immunity. Just a few of the wholesome benefits our recipes provide to help your furry friends fuel their daily lives. We make our foods with only real, thoughtfully sourced ingredients using the same quality and safety standards as healthy people foods. All this will be packed up in a monthly subscription, where users can choose between receiving one or two bags per month.
@@ -138,4 +141,3 @@ Privacy & terms
 - Testimonials
 - Footer
 
-This project was made for learning and educational purposes only, taking inspiration from other well known cat food brands.
