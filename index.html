@@ -14,6 +14,15 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/general.css" />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
     <title>LOLA</title>
   </head>
   <body>
@@ -22,31 +31,23 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link" href="#">Section 1</a>
+            <a class="main-nav-link" href="#">HOME</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Section 2</a>
+            <a class="main-nav-link" href="#">ABOUT</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Section 3</a>
+            <a class="main-nav-link" href="#">PRODUCTS</a>
           </li>
           <li>
-            <a class="main-nav-link" href="#">Section 4</a>
+            <a class="main-nav-link" href="#">FAQ</a>
           </li>
           <li>
-            <a class="main-nav-link nav-cta" href="#">Section 5</a>
+            <a class="main-nav-link nav-cta" href="#">Get Started</a>
           </li>
         </ul>
       </nav>
     </header>
-
-    <section class="featured-section">
-      <div class="container">
-        <h2 class="">
-
-        </h2>
-      </div>
-    </section>
 
     <main>
       <section class="section-hero">
@@ -83,6 +84,25 @@
               alt="hero photo of cat in front of a pink background"
               class="hero-img"
             />
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-section">
+        <div class="container">
+          <h2 class="featured-heading">As featured in</h2>
+          <div class="logos">
+            <img
+              src="img/logos/business-insider.png"
+              alt="Business Insider logo"
+            />
+            <img src="img/logos/forbes.png" alt="Forbes logo" />
+            <img src="img/logos/techcrunch.png" alt="Techcrunch  logo" />
+            <img
+              src="img/logos/the-new-york-times.png"
+              alt="the-new-york-times logo"
+            />
+            <img src="img/logos/usa-today.png" alt="Usa Today logo" />
           </div>
         </div>
       </section>
@@ -148,6 +168,113 @@
               class="step-img"
             />
           </div>
+        </div>
+      </section>
+
+      <section class="recipes-section">
+        <div class="container center-text">
+          <span class="subheading">Recipes</span>
+          <h2 class="secondary--heading">Choose from 2 organic recipes</h2>
+          <h4 class="third-heading">New recipes added every month.</h4>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="recipe">
+            <img
+              class="recipe-img"
+              src="img/gallery/bag1.png"
+              alt="Image of cat food bag"
+            />
+            <div class="recipe-content">
+              <div class="recipe-tag">
+                <span class="tag">Adult Blend</span>
+              </div>
+              <p class="recipe-title">Wild-Caught Salmon Dry Cat Food</p>
+              <ul class="recipe-list">
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>High in protein and fresh salmon</strong>
+                  </span>
+                </li>
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>Cranberries to promote UTI health </strong>
+                  </span>
+                </li>
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>Prebiotics for healthy digestion</strong>
+                  </span>
+                </li>
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>No poultry, potato or grains</strong>
+                  </span>
+                </li>
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>No rendered poultry or meat meals</strong>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="recipe">
+            <img
+              class="recipe-img"
+              src="img/gallery/bag1.png"
+              alt="Image of cat food bag"
+            />
+            <div class="recipe-content">
+              <div class="recipe-tag">
+                <span class="tag">Kitten Blend</span>
+              </div>
+              <p class="recipe-title">
+                Homestead Turkey Dry Cat Food
+              </p>
+              <ul class="recipe-list">
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>High in protein and fresh salmon</strong>
+                  </span>
+                </li>
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>Cranberries to promote UTI health </strong>
+                  </span>
+                </li>
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>Prebiotics for healthy digestion</strong>
+                  </span>
+                </li>
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>No fish, red meat or potato</strong>
+                  </span>
+                </li>
+                <li class="recipe-attribute">
+                  <ion-icon class="recipe-icon" name="sparkles"></ion-icon>
+                  <span>
+                    <strong>No rendered poultry or meat meals</strong>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="#" class="link">See all recipes &rarr;</a>
         </div>
       </section>
     </main>

@@ -120,6 +120,34 @@
 }
 
 /* ------------------------------------ */
+/* FEATURED IN SECTION */
+/* ------------------------------------ */
+
+.featured-section {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.featured-heading {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+display: flex;
+justify-content: space-around;
+}
+
+.logos img {
+  height: 3.5rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+/* ------------------------------------ */
 /* HOW IT WORKS SECTION */
 /* ------------------------------------ */
 
@@ -156,5 +184,84 @@
   align-self: center;
 }
 
+
+/* ------------------------------------ */
+/* RECIPES SECTION */
+/* ------------------------------------ */
+
+.recipes-section {
+  padding: 9.6rem 0;
+}
+
+.recipe {
+  box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.recipe:hover {
+  transform: translateY(-1.5rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0,0,0,0.06);
+
+}
+
+.recipe-content {
+  padding: 3.2rem 4.8rem  4.8rem 4.8rem;
+}
+
+.recipe-img {
+  width: 100%;
+}
+
+.recipe-tag {
+  margin-bottom: 12px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: var(--secondary);
+  border-radius: 100px;
+}
+
+.recipe-title {
+  font-size: 2.4rem;
+  color: var(--font);
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.recipe-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.recipe-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.recipe-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  fill: var(--primary);
+}
+
+strong {
+  font-weight: 500;
+}
 
 
